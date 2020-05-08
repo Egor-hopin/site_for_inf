@@ -1,0 +1,7 @@
+body {background-color: blue;}
+
+.message_for_screen {position: absolute; width: 800px; height: 800px; background: grey; top: 50%; left: 50%; margin-top: -400px; margin-left: -400px;}
+
+.message_for_screen h2 {font-size: 80px; text-align: center; color: black; font-family: sans-serif; position: relative; top: 50%; margin-top: -80px;}
+
+.all:not(.message_for_screen) {display: none;}
